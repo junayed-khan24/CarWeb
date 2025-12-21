@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import CarCard from "./CarCard";
 
 const cars = [
@@ -41,9 +41,93 @@ const cars = [
     km: "8k",
     fuel: "Petrol",
   },
+  {
+    id: 5,
+    image: "../../../src/assets/car6.WEBP",
+    name: "Range Rover Evoque P300",
+    price: "2 899 000",
+    year: 2020,
+    km: "12k",
+    fuel: "Diesel",
+    badge: "SKLADOVÉ",
+  },
+  {
+    id: 6,
+    image: "../../../src/assets/car5.jpg",
+    name: "Jaguar I-PACE EV400",
+    price: "4 599 000",
+    year: 2021,
+    km: "5k",
+    fuel: "Electric",
+    badge: "NOVÉ",
+  },
+  {
+    id: 7,
+    image: "../../../src/assets/car1.jpg",
+    name: "Land Rover Discovery HSE",
+    price: "3 450 000",
+    year: 2018,
+    km: "85k",
+    fuel: "Diesel",
+    badge: "-8%",
+  },
+  {
+    id: 8,
+    image: "../../../src/assets/car2.jpg",
+    name: "Jaguar F-PACE S",
+    price: "3 199 000",
+    year: 2019,
+    km: "40k",
+    fuel: "Petrol",
+  },
+  {
+    id: 9,
+    image: "../../../src/assets/car9.jpg",
+    name: "Range Rover Velar D300",
+    price: "4 100 000",
+    year: 2020,
+    km: "22k",
+    fuel: "Diesel",
+  },
+  {
+    id: 10,
+    image: "../../../src/assets/car10.jpg",
+    name: "Jaguar XF R-Sport",
+    price: "3 299 000",
+    year: 2019,
+    km: "30k",
+    fuel: "Petrol",
+    badge: "-10%",
+  },
+  {
+    id: 11,
+    image: "../../../src/assets/car11.jpg",
+    name: "Land Rover Defender 110",
+    price: "4 500 000",
+    year: 2021,
+    km: "3k",
+    fuel: "Diesel",
+    badge: "NOVÉ",
+  },
+  {
+    id: 12,
+    image: "../../../src/assets/car12.jpg",
+    name: "Jaguar E-PACE P250",
+    price: "2 750 000",
+    year: 2020,
+    km: "15k",
+    fuel: "Petrol",
+    badge: "SKLADOVÉ",
+  },
 ];
 
 const Cars = () => {
+  const [visible, setVisible] = useState(8); // প্রথমে 8 টা দেখাবে
+
+  const showMoreCars = () => {
+    setVisible(cars.length); // বাকি সব দেখাবে
+  };
+
   return (
     <section className="bg-base-200 py-14">
       <div className="max-w-7xl mx-auto px-4">
@@ -52,11 +136,22 @@ const Cars = () => {
           <p className="text-sm text-gray-500">458 vozů ihned k odběru</p>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-2">
-          {cars.map((car) => (
+        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-3">
+          {cars.slice(0, visible).map((car) => (
             <CarCard key={car.id} car={car} />
           ))}
         </div>
+
+        {visible < cars.length && (
+          <div className="text-center mt-6">
+            <button
+              onClick={showMoreCars}
+              className="px-6 py-2 bg-green-500 text-white rounded hover:bg-green-600 transition"
+            >
+              Show More
+            </button>
+          </div>
+        )}
       </div>
     </section>
   );

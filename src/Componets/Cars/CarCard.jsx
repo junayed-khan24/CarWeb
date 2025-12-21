@@ -4,7 +4,7 @@ const CarCard = ({ car }) => {
   const { image, name, price, year, km, fuel, badge } = car;
 
   return (
-    <div className="card bg-base-100 shadow-xl hover:shadow-2xl transition-all duration-300">
+    <div className="card bg-base-100 shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-[1.02]  cursor-pointer">
       <figure className="relative">
         <img src={image} alt={name} className="h-48 w-full object-cover" />
         {badge && (
