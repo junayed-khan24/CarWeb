@@ -54,7 +54,7 @@ const Navbar = () => {
 
       {/* Right */}
       <div className="navbar-end">
-        <button className="btn bg-green-500 hover:bg-green-600 text-black border-none">
+        <button className="btn bg-green-500 hover:bg-green-600 text-white border-none">
           Login
         </button>
       </div>
