@@ -50,11 +50,11 @@ const WhyChooseUs = () => {
 
           {/* Center Image */}
           <div className="flex justify-center">
-            <div className="rounded-full border border-gray-300 p-4">
+            <div className="rounded-full border border-gray-300 p-4 shadow-lg">
               <img
-                src="https://i.ibb.co/9ZJHc1p/car.png"
+                src="../../src/assets/car2-removebg.PNG"
                 alt="Car"
-                className="w-64 md:w-72 object-contain"
+                className="w-64 md:w-82 object-contain"
               />
             </div>
           </div>
