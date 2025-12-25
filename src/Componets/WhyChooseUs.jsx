@@ -7,7 +7,7 @@ const WhyChooseUs = () => {
         
         {/* Section Title */}
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-green-600">
+          <h2 className="text-3xl md:text-4xl font-bold text-green-500">
             Why Choose Us
           </h2>
           <p className="mt-4 text-gray-400 max-w-xl mx-auto">
