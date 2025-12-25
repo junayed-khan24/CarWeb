@@ -4,10 +4,12 @@ import Cars from './Cars/Cars';
 import WhyChooseUs from './WhyChooseUs';
 import Reviews from './Reviews';
 import Footer from './Footer';
+import Navbar from './Navbar';
 
 const Home = () => {
     return (
         <div>
+            <Navbar></Navbar>
             <Slider></Slider>
             <Cars></Cars>
             <WhyChooseUs></WhyChooseUs>
