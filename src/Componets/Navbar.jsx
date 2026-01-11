@@ -48,7 +48,7 @@ const Navbar = () => {
           <li><a className="hover:text-green-500">Home</a></li>
           <li><a className="hover:text-green-500"></a></li>
           <li><a className="hover:text-green-500"></a></li>
-          <li><a className="hover:text-green-500">Contact</a></li>
+          <li><a className="hover:text-green-500"></a></li>
         </ul>
       </div>
 
