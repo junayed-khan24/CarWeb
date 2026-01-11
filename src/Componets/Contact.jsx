@@ -5,7 +5,7 @@ const Contact = () => {
         
         {/* Section Title */}
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-primary">Contact Us</h2>
+          <h2 className="text-4xl font-bold text-primary">Contact Us CarRental</h2>
           <p className="mt-3 text-gray-500">
             Need a car or have questions? Get in touch with us today.
           </p>
