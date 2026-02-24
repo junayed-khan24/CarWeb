@@ -5,6 +5,7 @@ import WhyChooseUs from './WhyChooseUs';
 import Reviews from './Reviews';
 import Navbar from './Navbar';
 import Contact from './Contact';
+import Footer from './Footer';
 
 const Home = () => {
     return (
@@ -15,6 +16,7 @@ const Home = () => {
             <WhyChooseUs></WhyChooseUs>
             <Reviews></Reviews>
             <Contact></Contact>
+            <Footer></Footer>
         </div>
     );
 };
