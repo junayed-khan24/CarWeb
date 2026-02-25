@@ -77,7 +77,7 @@ const WhyChooseUs = () => {
               <div className="text-green-500 text-3xl">🤝</div>
               <div>
                 <h4 className="font-semibold text-gray-600">
-                  Exceptional Customer Service
+                  Exceptional Customer Services
                 </h4>
                 <p className="text-gray-400 text-sm">
                   Our team ensures fast support and a smooth experience from
