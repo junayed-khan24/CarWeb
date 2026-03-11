@@ -76,7 +76,7 @@ const WhyChooseUs = () => {
             <div className="flex items-start gap-4">
               <div className="text-green-500 text-3xl">🤝</div>
               <div>
-                <h4 className="font-semibold text-gray-600">
+                <h4 classNa me="font-semibold text-gray-600">
                   Exceptional Customer Services
                 </h4>
                 <p className="text-gray-400 text-sm">

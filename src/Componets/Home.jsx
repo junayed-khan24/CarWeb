@@ -1,17 +1,17 @@
 import React from 'react';
-import Slider from './Slider';
 import Cars from './Cars/Cars';
 import WhyChooseUs from './WhyChooseUs';
 import Reviews from './Reviews';
 import Navbar from './Navbar';
 import Contact from './Contact';
 import Footer from './Footer';
+import Hero2 from './Hero2';
 
 const Home = () => {
     return (
         <div>
             <Navbar></Navbar>
-            <Slider></Slider>
+            <Hero2></Hero2>
             <Cars></Cars>
             <WhyChooseUs></WhyChooseUs>
             <Reviews></Reviews>

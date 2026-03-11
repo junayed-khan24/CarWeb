@@ -7,17 +7,17 @@ import { useSwipeable } from "react-swipeable";
 
 const slides = [
   {
-    image: '../../src/assets/ban1.webp',
+    image: '../../src/assets/13035286_1920_1080_24fps.mp4',
     title: "Catching Fish",
     subtitle: "Experience the thrill of fishing adventures, patience, nature, and unforgettable moments by water.",
   },
   {
-    image: '../../src/assets/ban1.webp',
+    image: '../../src/assets/13035286_1920_1080_24fps.mp4',
     title: "Write Stories",
     subtitle: "Unleash creativity through compelling stories that inspire emotions, ideas, and imagination worldwide.",
   },
   {
-    image: '../../src/assets/ban2.webp',
+    image: '../../src/assets/13035286_1920_1080_24fps.mp4',
     title: "Nature Photography",
     subtitle: "Capture stunning natural beauty, wildlife, landscapes, and peaceful moments through your lens.",
   },
