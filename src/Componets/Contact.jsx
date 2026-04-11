@@ -5,7 +5,7 @@ const Contact = () => {
         
         {/* Section Title */}
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-primary">Contact Us CarRental</h2>
+          <h2 className="text-4xl font-bold text-green-600">Contact Us CarRental</h2>
           <p className="mt-3 text-gray-500">
             Need a car or have questions? Get in touch with us today.
           </p>
@@ -54,7 +54,7 @@ const Contact = () => {
                   className="textarea textarea-bordered w-full h-32"
                 ></textarea>
 
-                <button className="btn btn-primary w-full">
+                <button className="btn bg-green-600 hover:bg-green-700 text-white w-full">
                   Send Message
                 </button>
               </form>
