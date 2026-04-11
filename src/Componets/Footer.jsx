@@ -4,7 +4,7 @@ import { FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa';
 const Footer = () => {
     return (
         <div>
-            <footer className="footer bg-gradient-to-r from-red-950 via-red-900 to-red-800 sm:footer-horizontal text-neutral-content p-10">
+            <footer className="footer bg-gradient-to-r from-green-950 via-green-800 to-green-700 sm:footer-horizontal text-neutral-content p-10">
   <nav>
     <h6 className="footer-title">Services</h6>
     <a className="link link-hover">Branding</a>
