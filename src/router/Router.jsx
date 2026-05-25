@@ -5,6 +5,10 @@ const router = createBrowserRouter([
     {
         path: "/",
         Component: Home,
+    },
+    {
+        path: "login",
+        Component: 
     }
 ])
 
